@@ -1,0 +1,321 @@
+
+/* VIEWPORT SIZE : 1920x1080 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap%27");
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    min-width: 100%;
+}
+
+header{
+    display: flex;
+    height: 174px;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 5% 2.5% 5%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+header img{
+    height: 23px;
+    width: 120px;
+}
+
+nav{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+}
+
+h1{
+    margin: 0 0 3% 0;
+    font-size: 58px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 16px;
+    color: #323851;
+}
+
+.heading{
+    color: #232851;
+}
+
+p{
+    margin: 30px 0;
+    font-size: 16.56px;
+}
+
+li{
+    list-style: none;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navigation a{
+    width: 15%;
+}
+
+a{
+    text-decoration: none;
+    color: #242E52;
+}
+
+a:hover{
+    color: rgba(36, 46, 82, 0.6);
+}
+
+
+button{
+    width: 134px;
+    height: 44px;
+    background-color: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: 0;
+    color: #ffff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+button:hover{
+    background-color: rgba(139, 72, 191, 0.7);
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.main-container img{
+    width: 40%;
+}
+
+.container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+}
+
+.content{
+    width: 34%;
+}
+
+.content p{
+    width: 60%;
+}
+
+.second-content li{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.second-content p{
+    color: #B3B2B7;
+    width: 100%;
+}
+
+.second-content button{
+    box-shadow: none;
+    font-weight: 700;
+    margin-right: 30px;
+    width: 69px;
+}
+
+.second-content button:hover{
+    background-color: #8B48BF;
+    cursor: default;
+}
+
+.list-text{
+    position: relative;
+    top: 15px;
+}
+
+.secondary-container{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-container{
+    display: flex;
+    margin: 5%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    padding: 0 5% 0 5%;
+    background-color: #FAFAFA;
+}
+
+.card p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156.6%;
+    color: #B3B2B7;
+}
+
+.card img{
+    width: 70px;
+    height: auto;
+    position: relative;
+    bottom: 15%;
+}
+
+footer{
+    height: 10vh;
+}
+
+.footer-top{
+    padding: 0 15%;
+    color: #fff;
+    background-color: #8B48BF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 224px;
+}
+
+.footer-top h2{
+    width: 40%;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.footer-bottom{
+    height: 247px;
+    background-color: #1E1E26;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 65px;
+    padding: 65px 15% 0 15%;
+    box-sizing: border-box;
+}
+
+.light{
+    background-color: #fff;
+    color:#8B48BF;
+}
+
+.footer-section{
+    height: 80%;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+    width: 20%;
+    height: 80%;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 80%;
+}
+
+.links li{
+    margin-bottom: 20px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-form-section{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer-form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-form button{
+    width: 69px;
+}
+
+.footer-form-section p{
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #8C8C94;
+}
+
+input{
+    box-sizing: border-box;
+    width: 200px;
+    padding-left: 10px;
+    height: 44px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+/* MOBILE MEDIA QUERY CSS */
+
+@media (max-width: 480px){
+    .special{
+        display: none;
+    }
+}
