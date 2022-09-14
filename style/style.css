@@ -32,6 +32,10 @@ header img{
     width: 120px;
 }
 
+.mobile{
+    display: none;
+}
+
 nav{
     display:flex;
     width: 50%;
@@ -315,7 +319,137 @@ input{
 /* MOBILE MEDIA QUERY CSS */
 
 @media (max-width: 480px){
+    button{
+        box-shadow: none;
+    }
+
+    .mobile{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .desktop{
+        display: none;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        align-content:space-between;
+        width: 100%;
+        padding: 0;
+    }
+
+    .main-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .main-container img{
+        width: 90%;
+        margin-bottom: 200px;
+    }
+
+    .container-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 120px;
+    }
+
+    .content p{
+        text-align: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #subtitle-second-section{
+        width: 386px;
+    }
+
+    .container-content p{
+        width: 333px;
+        text-align: center;
+    }
+
+    .second-container{
+        flex-direction: column;
+    }
+
+    .second-content{
+        margin-left: 10%;
+    }
+
+    .second-content li{
+        width: 100%;
+        margin-bottom: 5%;
+        justify-content: flex-end;
+    }
+
+    .card-header{
+        display: flex;
+        height: 43px;
+        background: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        align-items: center;
+    }
+
+    .list-number-container{
+        height: 43px;
+        position: relative;
+        left: 2%;
+        width: 10px;
+    }
+
+    .list-text{
+        top: 0;
+    }
+
+    .list-text h3{
+        padding-left: 20%;
+    }
+
+    .list-text p{
+        width: 408px;
+        height: 104px;
+        text-align: start;
+    }
+
+    ul{
+        margin-bottom: 100px;
+    }
+
+    li{
+        display: flex;
+    }
+
+    .card-container{
+        margin: 100px 0 45px 0;
+    }
+
     .special{
         display: none;
+    }
+
+    main{
+        margin-bottom: 77px;
     }
 }

@@ -11,7 +11,7 @@
 <body>
     <header>
         <img src="./img/Logo.png" alt="manage brand logo">
-        <nav>
+        <nav class="desktop">
             <ul class="navigation">
                 <li><a href="./index.html">Pricing</a></li>
                 <li><a href="./index.html">Product</a></li>
@@ -20,7 +20,12 @@
                 <li><a href="./index.html">Community</a></li>
             </ul>
         </nav>
-        <button>Get Started</button>
+        <button class="desktop">Get Started</button>
+        <nav class="mobile menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </nav>
     </header>
     <main>
         <section class="main-container">
@@ -31,38 +36,43 @@
             </div>
             <img src="./img/Ilustracion.png" alt="nice colorful cake and bars ilustration with some numbers">
         </section>
-        <section class="main-container">
+        <section class="main-container second-container">
             <div class="content">
                 <h2 class="heading">What's different about Manage?</h2>
-                <p>Manage provides all the functionality yourcteas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
+                <p id="subtitle-second-section">Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
             </div>
             <ul class="content second-content">
                 <li>
 <!-- consulta Vic: ¿Porque el width del button no se respeta (dentro del li), si no esta dentro de un <div> -->
-                    <div> 
+                    <div class="list-number-container"> 
                         <button class="list-number">01</button>
                     </div>
                     <div class="list-text">
-                        <h3>Track company-wide progress</h3>
+                        <div class="card-header">
+                            <h3>Track company-wide progress</h3>
+                        </div>
                         <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
                     </div>
                 </li>
                 <li>
-                    <div>
-                        <button>02</button>
+                    <div class="list-number-container">
+                        <button class="list-number">02</button>
                     </div>
-                    
                     <div class="list-text">
-                        <h3>Advance built-in reports</h3>
+                        <div class="card-header">
+                            <h3>Advance built-in reports</h3>
+                        </div>
                         <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
                     </div>
                 </li>
                 <li>
-                    <div>
-                        <button>03</button>
+                    <div class="list-number-container">
+                        <button class="list-number">03</button>
                     </div>
                     <div class="list-text">
-                        <h3>Everything you need in one place</h3>
+                        <div class="card-header">
+                            <h3>Everything you need in one place</h3>
+                        </div>
                         <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
                     </div>
                 </li>
