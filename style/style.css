@@ -202,7 +202,8 @@ button:hover{
 }
 
 footer{
-    height: 10vh;
+    height: 30vh;
+    width: 100%;
 }
 
 .footer-top{
@@ -451,5 +452,63 @@ input{
 
     main{
         margin-bottom: 77px;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        height: 75%;
+        justify-content: normal;
+    }
+
+    .footer-top h2{
+        width: 100%;
+        margin: 22% 8% 10% 8%;
+    }
+
+    .footer-bottom{
+        height: 130%;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .Copyright{
+        display: block;
+        justify-content: center;
+        margin: 10% 0 10% 0;
+        color: rgb(84, 84, 84);
+    }
+
+    .social-media{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+
+    .social-media img{
+        margin-top: 50px;
+        width: 150px;
+    }
+
+    .icons{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    footer{
+        height: 50vh;
+    }
+
+    .footer-links{
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        height: 30%;
+    }
+
+    .footer-form-section{
+        height: 0;
+        display: flex;
+        width: 100%;
+        margin-bottom: 45%;
     }
 }
