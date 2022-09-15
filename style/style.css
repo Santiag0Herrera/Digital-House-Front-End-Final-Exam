@@ -456,19 +456,21 @@ input{
 
     .footer-top{
         flex-direction: column;
-        height: 75%;
-        justify-content: normal;
+        height: 30%;
+        justify-content: center;
     }
 
     .footer-top h2{
         width: 100%;
-        margin: 22% 8% 10% 8%;
+        margin: 0 8% 10% 8%;
     }
 
     .footer-bottom{
-        height: 130%;
+        height: 65%;
         align-items: center;
         flex-direction: column-reverse;
+        padding: 0 10%;
+        justify-content: center;
     }
 
     .Copyright{
@@ -482,6 +484,7 @@ input{
         flex-direction: column-reverse;
         width: 100%;
         align-items: center;
+        height: 10%;
     }
 
     .social-media img{
@@ -495,7 +498,7 @@ input{
     }
 
     footer{
-        height: 50vh;
+        height: 73vh;
     }
 
     .footer-links{
@@ -507,8 +510,16 @@ input{
 
     .footer-form-section{
         height: 0;
-        display: flex;
         width: 100%;
         margin-bottom: 45%;
+        align-items: center;
+    }
+
+    .footer-form{
+        width: 113%;
+    }
+
+    input{
+        width: 70%;
     }
 }
